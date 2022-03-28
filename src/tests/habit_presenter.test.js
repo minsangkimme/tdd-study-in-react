@@ -19,7 +19,6 @@ describe("Habit Presenter", () => {
     });
 
     it("increments habit count call and update callback", () => {
-        console.log("update", update.mock);
         presenter.increment(habits[0], update);
 
         expect(presenter.getHabits()[0].count).toBe(1);

@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test":  "jest --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -40,6 +40,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1"
   }
