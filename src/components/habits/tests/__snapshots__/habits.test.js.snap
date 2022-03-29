@@ -25,13 +25,13 @@ exports[`Habits Component render 1`] = `
     >
       <span
         className="habit-name"
-        data-testid="name"
+        data-testid="habit-name"
       >
         Reading
       </span>
       <span
         className="habit-count"
-        data-testid="count"
+        data-testid="habit-count"
       >
         2
       </span>
@@ -68,13 +68,13 @@ exports[`Habits Component render 1`] = `
     >
       <span
         className="habit-name"
-        data-testid="name"
+        data-testid="habit-name"
       >
         Apple
       </span>
       <span
         className="habit-count"
-        data-testid="count"
+        data-testid="habit-count"
       >
         0
       </span>
